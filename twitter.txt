@@ -1,0 +1,99 @@
+# -*- coding: utf-8 -*-
+import json
+s1="@malerierenae:surprised him to a houston rockets vs miami heat game."
+s2="@MiamiHeatNews5: Houston Rockets vs. Miami Heat game preview - The Dream Shake http://dlvr.it/NNjcmK  #HEATIsOn"
+s3="@jasongomez28: Houston Rockets vs Miami Heat: Game Day Preview "
+s4="@tabpr: #NBA Miami Heat vs Houston Rockets: Calentando motores http://fb.me/3vvwSaHVv "
+s5=" @JoeyBets_ : Line Update: Houston Rockets are now -10 from -10.5 vs Miami Heat recorded at 05:40 #SportsBetting #NBA #Basketball"
+s6="@jggonz2001: Workong Security. — watching Miami Heat vs Houston Rockets at Houston Toyota Center http://fb.me/6hYzg9Y0v "
+s7="@only_picks:Miami @MiamiHEAT vs Houston @HoustonRockets: Who covers point spread? over/under? #HeatIsOn #rockets50 #MIAvsHOU #NBA "
+s8="@JoeyBets_  : Line Update: Houston Rockets are now -10.5 from -10 vs Miami Heat recorded at 02:40 #SportsBetting #NBA #Basketball"
+s9="@rocketsbuzztap: spacecityscoop?.com >> Houston Rockets vs Miami Heat: Game Preview http://buzztap.com/-klscK9 "
+s10="@GooduBasketball: Houston Rockets vs Miami Heat – Highlights | Jan 17, 2017 | 2016-17 NBA Season https://wp.me/p8bmGO-2hs  #"
+s11="@HouSportReport : @HoustonRockets vs @MiamiHEAT for the last game before @JHarden13 and @TheofficialEG10 head to New Orleans #NBAAllStar #3pointcompetition"
+s12="@BlackhorseLimo1  : 2nite @HoustonRockets VS @MiamiHEAT ,Thur @DrowningPool + @JohnnySolinger @proofrooftop (FREE SHOW),Fri @therealjuicyj @HOBHouston #LIMOTIME"
+s13="@livebasket24 : Watch Houston Rockets vs Miami Heat Live Stream Online http://dlvr.it/NNWyVS "
+s14="@miamiinventor: Gm Tweeters?? Through It All Just Smile © 2nite Miami Heat vs Houston Rockets LET'S GO HEAT!!! "
+s15="@cappertek: NBA Game Simulator: 8:00 PM EST - Miami Heat vs. Houston Rockets - SIMULATE GAME: https://www.cappertek.com/xSimulator.asp?n=87653 …"
+s16="@HoustonRockets: #JamesHarden checking in for work. – at Toyota Center"
+s17="@RitchCay: Houston Rockets we have a problem #AddSportsRuinAQuote"
+s18="@marceloclaure : .@MiamiHEAT had the longest winning streak in the @NBA this season! Hoping they can start it again w/ @HoustonRockets tonight! #HeatIsOn??"
+s19="@DFS_Hotshots  : Houston Rockets Status Alert ??-Eric Gordon will play against the Heat, as expected"
+s20="@ROOTSPORTSSW : As your @HoustonRockets prepare for their final game before the All-Star Break tweet us your best memories from the season thus far #Rockets"
+s21="@AustinParadise7 : @blazersedge This list is crap. Where's his shot from 35' against the @HoustonRockets?"
+s22="@MiamibyNight: Houston Rockets - Eurosport.fr http://bit.ly/2kzwD5S  #Miami"
+s23="@brunerhogs: Check out VINTAGE HOUSTON ROCKETS FITTED REEBOK CAP 7 1/8 NEW NEVER WORN FREE SHIPPING  https://www.ebay.com/itm/380877549734 … @eBay"
+s24="@Jeremy_Lin_Fans : #JeremyLin #Lakers Jeremy Lin #7 Houston Rockets Jersey Road Red Size S (New with Tags) http://dlvr.it/NNmFr6  #Deals #Online"
+s25="@Ethan_Chapman24 : I liked a @YouTube video from @mccruddenm http://youtu.be/JiU8hoztSX4?a  JAMES HARDEN - Before They Were Famous - Houston Rockets"
+s26="@doubledavesSLTX : @HoustonRockets vs @MiamiHEAT @ 7 PM! #WednesdaySpecial: Large 15 1-Top for $9.99! Din buffet: 5-8 PM! $2 Drafts! #nba  #pizza #doubledaves"
+s27="@MiamiHeatNews5: Heat Game Day: Miami Heat at Houston Rockets - Sun Sentinel (blog) http://dlvr.it/NNlq8M  #HEATIsOn"
+s28="@HOU_Rockets247:One of the Houston Rockets' longtime NBA rivals is open for business and that might lead to more help for James..."
+s29="@livebasketball:The Houston #Rockets host the Miami #Heat on Wednesday  #NBAhttp://www.livebasketball.com/category/nba/miami-heat-at-houston-rockets-nba-basketball-live-streaming-advice-20170214-0002/ …"
+s30="@HeatViews : #HeatNation #MiamiHeat #LetsGoHeat Miami HEAT at Houston Rockets Game Preview http://dld.bz/fyVtn "
+s31="@DrJohnHWhite2: @HoustonRockets @reliantenergy @JHarden13 The BEARD Houston Rockets Point, Shooting & Fly Guard 3 N 1= 4 Well 2+2=4 What A Combo Houston"
+s32="@thedigitalvibe: #FOLLOW;#RETWEET: 2 TICKETS OKLAHOMA CITY THUNDER OKC @ HOUSTON ROCKETS 3/26 "
+s33="@HoustonRockets: The Beard is powering even more than you’d expect this month! Check his stats pres. by @reliantenergy! #PowerUpHtown: 36 ppg/9 rpg/9 apg"
+s34="@HoustonRockets : @steinaye Love that! #Winner"
+s35="@MiamiMetropolis: Miami Heat at Houston Rockets – 7:30 p.m. – FOX Sports Sun "
+s36="@MiamiHeatFans5: #Collectible #Buzz STANCE MIAMI #Heat L/XL( 9'-13) MULTICOLOR SOCKS http://dlvr.it/NNmn8G  #Auction #Cheap"
+s37=" @Krillin1992 : @MiamiHEAT would it be ok if I could take part in this on Friday? And bring some friends with me? #wishfulthinking"
+s38="@Dwyane_Wade_Fan : TIX http://Dlvr.it/8tsMGy  Dallas Mavericks vs Miami #Heat #Ticket 02/27/17 (Dallas) http://dlvr.it/NNmlkT  #Tickets #Deals"
+s39="@Dwyane_Wade_Fan: TIX http://Dlvr.it/8tsMGy  1-6 Miami #Heat vs. Washington Wizards #Tickets 4/12/17 American Airlines… http://dlvr.it/NNmlWk  #Ticket #eBay"
+s40="@DirtyBearSports : #NBA {513} Miami Heat 1st Half +6"
+s41	=	"@GustmanShannon:#NBA #Adidas Ryan Anderson #Pelicans Climacool Purple Swingman #Jersey Men's 2XL NWT http://dlvr.it/NhvYHd  #Basketball"
+s42	=	"@RedNationHoops:My opinion on Ryan Anderson has taken a full 180° since the Rockets gave him that contract. He's so invaluable to this team."
+s43	=	"@MrJoshua :I added a video to a @YouTube playlist http://youtu.be/PRRxcq9JerA?a  Ryan Anderson following win over the Cleveland Cavaliers"
+s44	=	"@Terpish :Chris Bosh stays petty with the jersey "
+s45	=	"@VintageSports_  : Manu Ginobili throws it DOWN on Chris Bosh in the NBA Finals. (2017) "
+s46	=	"@SLAMonline: Chris Bosh on Players Resting: 'If You Can Play, Play' http://slam.ly/uNEaGB "
+s47	=	"@mchalmers15: RT @MarlandLowe: Light work with JL3, Rio, & House. @luke1luk @mchalmers15 dk2house https://www.instagram.com/p/BQvRM9ijGwY/ "
+s48	=	"@CollegeT0wn: Mario Chalmers sends the 2008 National Championship into Overtime with this HUGE 3 pointer "
+s49	=	"@MiamiHEAT : Check out this preview of Inside the HEAT: Justise Winslow which debuts tonight after the Suns-HEAT game on @FOXSportsHEAT."
+s50	=	"@HEAT_Nation305  : 2 weeks from now:BY GOD, THAT'S JUSTISE WINSLOW. HE ISN'T SUPPOSED TO BE IN ACTION FOR MONTHS." 
+s51	=	"@SportsCenter: Breaking: Dwyane Wade will be out the remainder of the regular season with a sprain and a small fracture in his elbow. "
+s52	=	"@Dwyane_Wade_Fan: #Sports DWYANE WADE /60 CRUSADE ORANGE DIE CUT REFRACTOR BULLS HEAT 2014-15 14-15 PANINI http://dlvr.it/Nj5STf  #Cards #Share"
+s53	=	"@TrailBlazersPR: Damian Lillard's 49 points are the most by any NBA player on 21 field goal attempts or fewer since Amar'e Stoudemire (11/5/08)."
+s54	=	"@GustmanShannon: #NBA NWT Amar'e Stoudemire #Phoenix #Suns #Adidas Men's 2XL $95 sewn basketball #Jersey http://dlvr.it/NhB5Kx  #Basketball"
+
+x={'GameId':0021500041,'Tweets':[]}
+x['Tweets'].append({'text':s1});
+x['Tweets'].append({'text':s2});
+x['Tweets'].append({'text':s3});
+x['Tweets'].append({'text':s4});
+x['Tweets'].append({'text':s5});
+x['Tweets'].append({'text':s6});
+x['Tweets'].append({'text':s7});
+x['Tweets'].append({'text':s8});
+x['Tweets'].append({'text':s9});
+x['Tweets'].append({'text':s10});
+x['Tweets'].append({'text':s11});
+x['Tweets'].append({'text':s12});
+x['Tweets'].append({'text':s13});
+x['Tweets'].append({'text':s14});
+x['Tweets'].append({'text':s15});
+x['Tweets'].append({'text':s16});
+x['Tweets'].append({'text':s17});
+x['Tweets'].append({'text':s18});
+x['Tweets'].append({'text':s19});
+x['Tweets'].append({'text':s20});
+x['Tweets'].append({'text':s21});
+x['Tweets'].append({'text':s22});
+x['Tweets'].append({'text':s23});
+x['Tweets'].append({'text':s24});
+x['Tweets'].append({'text':s25});
+x['Tweets'].append({'text':s26});
+x['Tweets'].append({'text':s27});
+x['Tweets'].append({'text':s28});
+x['Tweets'].append({'text':s29});
+x['Tweets'].append({'text':s30});
+x['Tweets'].append({'text':s31});
+x['Tweets'].append({'text':s32});
+x['Tweets'].append({'text':s33});
+x['Tweets'].append({'text':s34});
+x['Tweets'].append({'text':s35});
+x['Tweets'].append({'text':s36});
+x['Tweets'].append({'text':s37});
+x['Tweets'].append({'text':s38});
+x['Tweets'].append({'text':s39});
+x['Tweets'].append({'text':s40});
+print(json.dumps(x))
